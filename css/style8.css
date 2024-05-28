@@ -1,0 +1,45 @@
+.title, .section1, .section2, .section3{
+  border: solid 10px orange;
+  margin: 4%;
+}
+
+.title h1{
+  color: red;
+}
+
+.title p,.title ol{
+  color: white;
+}
+.title p{
+background-color: rgb(4, 106, 96) ;
+}
+
+.title ol{
+background-color: red;
+}
+
+.section1 h1, .section2 h1{
+  background-color: lightcoral;
+  color: white;
+}
+
+.section1 ol, .section2 ol{
+  color: red;
+}
+
+.subclass{
+  border:solid 5px red ;
+}
+
+.section1 p, .section2 p{
+  color:  rgb(3, 148, 133) ;;
+}
+
+.section3 h1{
+  color: red;
+}
+
+.section3 ol{
+  color: white;
+  background-color: red;
+}

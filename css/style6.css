@@ -1,0 +1,43 @@
+body{
+  background-color: rgb(7, 201, 236);
+  color: blue;
+  padding: 1%;
+}
+
+h1{
+  color:white;
+}
+
+.top, .first, .second{
+  background-color: blue; 
+}
+
+.top{
+  color:rgb(202, 195, 195);
+  padding: 1%;
+}
+
+.first, .second{
+  color:rgb(187, 179, 179);
+}
+.first{
+  padding: 1%
+}
+
+.third{
+  color: lightgreen;
+  text-decoration: underline;
+}
+
+#first, #second, #third {
+  background-color: rgb(201, 196, 196);
+  padding: 1%;
+}
+
+#third {
+  padding-left: 4%;
+}
+
+#forth{
+  color: grey;
+}

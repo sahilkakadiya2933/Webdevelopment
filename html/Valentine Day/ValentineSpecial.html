@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine Day Special</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+  <style>
+     body{
+      background-color: rgb(56, 156, 213);
+      color: black;
+      font-family: 'Protest Revolution', sans-serif;
+      
+    }
+
+    p{
+      font-size: 10vh;
+      margin: 30px 0 0 250px;
+      animation: sahil 1s infinite ease-in-out;
+    }
+
+    .image-container div{
+      display: inline-block;
+      padding: 1%;
+      margin: 30px 0 0 100px;
+    }
+
+    #normal{
+      height: 45vh;
+      
+     /* margin: 20px 0 0 500px;  */
+    }
+    #yes{
+      height: 45vh;
+      opacity: 0;
+      
+    }
+
+    #no{
+      height: 45vh;
+      opacity: 0;
+    }
+
+
+    .container div{
+      display: inline-block; 
+      padding: 380px 10px 0 90px;
+    }
+
+    .container{
+      margin: -350px 0 0 500px;
+    }
+
+    button{
+      height: 7vh;
+      width: 7vw;
+      color: white;
+      background-color: black;
+      border: 4px solid white;
+      border-radius: 10px;
+      font-size: 0.5cm;
+    }
+
+    #first:hover, #second:hover{
+      background-color: blue;
+      height: 8vh;
+      width: 15vh;
+    }
+
+   p:hover{
+    color: rgb(0, 255, 8);
+    
+   }
+
+   @keyframes sahil {
+    from{
+
+    }
+    to{
+      
+      transform: translateX(30px);
+    }
+    
+   }
+
+   
+    
+  </style>
+</head>
+<body>
+
+  <p>WILL YOU BE MY VALENTINE ??</p>
+
+  <div class="image-container">
+    <div><img id="yes" src="yes.gif"></div>
+    <div><img id="normal" src="3.gif"></div>
+    <div><img id="no" src="no.gif"></div>
+   
+  </div>
+
+  <div class="container">
+    <div>
+      <button id="first">Yes</button>
+    </div>
+    <div>
+      <button id="second">No</button>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("first").addEventListener("mouseenter", function() {
+      document.getElementById("normal").style.opacity = "0";
+      document.getElementById("yes").style.opacity = "1";
+      document.getElementById("no").style.opacity = "0";
+    });
+
+    
+    document.getElementById("first").addEventListener("mouseleave", function() {
+      document.getElementById("normal").style.opacity = "1";
+      document.getElementById("yes").style.opacity = "0";
+      document.getElementById("no").style.opacity = "0";
+    });
+
+    document.getElementById("second").addEventListener("mouseenter", function() {
+      document.getElementById("normal").style.opacity = "0";
+      document.getElementById("no").style.opacity = "1";
+      document.getElementById("yes").style.opacity = "0";
+    });
+
+    document.getElementById("second").addEventListener("mouseleave", function() {
+      document.getElementById("normal").style.opacity = "1";
+      document.getElementById("no").style.opacity = "0";
+      document.getElementById("yes").style.opacity = "0";
+    });
+
+    
+  </script>
+</body>
+</html>

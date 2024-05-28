@@ -1,0 +1,23 @@
+.container{
+  background-color: aqua;
+  border: 4px solid black;
+  height: 450px;
+  width: 500px;
+  display: flex;
+  /*justify-content:  flex-start;
+  justify-content: flex-end; 
+  justify-content: center;
+  justify-content: space-between; 
+   justify-content: space-around;*/
+  justify-content: space-evenly;  
+
+  /* align-items: stretch; */
+  align-items: center;
+   /* align-items: flex-start; */
+   /* align-items: flex-end; */ 
+}
+
+.one, .two, .three{
+  border: 10px solid white;
+  padding: 2%;
+}

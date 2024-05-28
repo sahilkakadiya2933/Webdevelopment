@@ -1,0 +1,42 @@
+body{
+  background-color:#ffff99;
+  padding-left: 2%;
+}
+h1{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  color: red;
+  border: solid red;
+  font-size: 300%;
+  padding: 1%;
+
+}
+
+h2{
+  font-family:'Courier New', Courier, monospace ;
+  background-color: red;
+  font-size: 150%;
+}
+
+p{
+  color: black;
+  border: dotted gold;
+  padding: 1%;
+}
+ol{
+  background-color: gold;
+}
+
+h2,ol{
+  color: #ffff99;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+}
+
+li{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1%;
+  padding: 5px;
+  font-weight: bold;
+}

@@ -1,0 +1,31 @@
+body{
+  background-color: lightgoldenrodyellow;
+}
+
+h1{
+  background-color:hsl(330, 84%, 78%);
+  color: bisque;
+  padding: 2%;
+}
+
+h2,p{
+  color: hsl(330, 84%, 78%);
+}
+h3{
+  background-color: hsl(330, 84%, 78%);
+  color: bisque;
+  padding: 1%;
+}
+p{
+  border: dashed 3px green;
+  padding: 2%;
+}
+
+ol, ul{
+  border: solid 5px green;
+  padding-left: 3%;
+  color: hsl(330, 84%, 78%);;
+}
+a{
+  color: green;
+}
